@@ -4,7 +4,7 @@ import sys
 sys.path.insert(0, './src')  # Add the 'src' directory to the path
 from bank_account import BankAccount, InsufficientFundsError
 
-def test_bank_account():
+def test_bank_acc():
     # Create two bank accounts
     account1 = BankAccount("Alice", 1000.0)
     account2 = BankAccount("Bob", 500.0)
