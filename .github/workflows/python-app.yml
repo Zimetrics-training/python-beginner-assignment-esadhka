@@ -29,5 +29,6 @@ jobs:
         pip install pytest
 
     - name: Run tests
+      working-directory: ./src
       run: |
-        pytest tests --disable-warnings -q
+        pytest ../tests --disable-warnings -q
