@@ -1,7 +1,7 @@
 # test_bank_account.py
 import pytest
 import sys
-sys.path.insert(0, './src')  # Add the 'src' directory to the path
+sys.path.insert(0, '../src')  # Add the 'src' directory to the path
 from bank_account import BankAccount, InsufficientFundsError
 
 def test_bank_account():
