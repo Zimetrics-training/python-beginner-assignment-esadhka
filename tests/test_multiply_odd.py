@@ -1,6 +1,7 @@
 import pytest
 import sys
-sys.path.insert(0, './src')  # Add the 'src' directory to the path
+#sys.path.insert(0, './src')  # Add the 'src' directory to the path
+sys.path.insert(0, '../src')  # Add the 'src' directory relative to 'tests' folder
 from multiply_odd import multiply_odd_numbers
 
 def test_multiply_odd_numbers():
