@@ -21,7 +21,7 @@ class Rectangle:
 
     def perimeter(self):
         # Return the perimeter of the rectangle
-        return 2*(self.width+self.height)
+        return 2*(self.width+self.height) + 1
 
     def is_square(self):
         # Return True if the rectangle is a square, otherwise False
